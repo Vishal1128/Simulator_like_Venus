@@ -2,18 +2,6 @@
 Functional Simulator for RISCV Processor
 ================================================
 
-README
-
-CS-204 project, RISC-V SIMULATOR, Phase 2, GROUP :-
-Languages:- C++
-
-TEAM MEMBERS:- 
-        *Prateek Saini (2018CSB1114)
-	*Naveen Yadav  (2018CSB1106)
-	*Aman Dhawan   (2018CSB1070)
-	*Vikram Singh  (2018CSB1194)
-	*Vishal Yadav  (2018CSB1128)
-
 Phase 2:-
 Implemented data path and control paths to run the Instructions.
 Implemented all stages i.e. Fetch, Execute, Decode, Memory, RegWrite
@@ -28,10 +16,8 @@ Directory Structure:
 --------------------
 CS112-Project
   |
-  |- doc
-      |
-      |- design-doc.docx
-  |- src
+  |- design-doc.docx
+  |- code
       |- main.cpp
       |- example.txt
 
@@ -60,17 +46,6 @@ HOW TO RUN:-
         ./a.out
 	You will get your desired output in terminal.
 
-
-Work by Indviduals:-
-------------
-
-Prateek Saini -> I and R format
-Naveen Yadav -> I, R , SB and UJ format
-	     -> overall structure of code(main.cpp)
-	     -> .text part execution 
-Aman Dhawan -> U and S format , 
-            -> .data part exection and Documentation .
-Vishal Yadav -> UJ and SB format
 
 Algorithm and Methodology -> See Design Document
 
