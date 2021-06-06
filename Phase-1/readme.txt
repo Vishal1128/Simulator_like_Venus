@@ -2,28 +2,6 @@
 				----------------------------------------------
                                             PHASE -  1
 
-Group members (entry number)-
-	*Prateek Saini (2018CSB1114)
-	*Naveen Yadav  (2018CSB1106)
-	*Aman Dhawan   (2018CSB1070)
-	*Vikram Singh  (2018CSB1194)
-	*Vishal Yadav  (2018CSB1128)
-
-	  
-
-----------------------------------------------------------------------------------------------------------------------------------------
-----------------------------------------------------------------------------------------------------------------------------------------
-Work by Indviduals:-
-------------
-
-Prateek Saini ->-overall structure of code(main.cpp)
-		-I,R,SB and UJ formats 
-		-.data,.text part exection and Documentation.
-Naveen Yadav -> I,R format 
-Aman Dhawan ->U,S format 
-Vikram -> UJ format
-
-
 Instructions to run program -
 	a. Open command prompt, and go to the directory where you have kept the files.
 	b. Enter command "g++ main.cpp". (this wil compile the code, and create an executable file with name "a.exe").
@@ -47,7 +25,7 @@ Output format -
 	   Here, first is for memory address and second is values of variables defined in .data section. (both are printed in hex).
 
 Assumptions -
-	a. As given by sir, We have given 0x10000000 as the base address of Data memory.
+	a. I have given 0x10000000 as the base address of Data memory.
 	b. Psuedo instructions are not supported.
 	c. -For comment, Input file must not contain comment.
 	   -After a label the next instruction if present should start from the same line with a sapce(" ") between : and the instruction.
@@ -55,6 +33,6 @@ Assumptions -
 	   -For ex.(add x1 x2 x3    must be written      add x1,x2,x3)
 	   -After ending of instruction no tap or space must be given
 	   -For ex.("add x1,x2,x3"-correct     "add x1,x2,x3     "-incorrect)
-	d. We have not covered all (except the 4 error mentioned in the google classroom comments) Syntax error cases. So we assume a syntatically & semantically correct input file.
+	d. I have not covered all (except the 4 error mentioned in the google classroom comments) Syntax error cases. So we assume a syntatically & semantically correct input file.
 	e. Only the instructions provided in "reference sheet manual of risc-v", are supported.	 
 	f. for lw command  ---   lw register,label like commands are not supportive. 	
